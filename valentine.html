@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Valentine 💕</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+background:#821515;
+font-family:Poppins;
+overflow-x:hidden;
+color:white;
+position:relative;
+}
+
+/* START SCREEN */
+#start{
+position:fixed;
+inset:0;
+background:#821515;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+z-index:999;
+}
+
+#start button{
+padding:20px 40px;
+font-size:22px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* repeating love text */
+.bgtext{
+position:fixed;
+inset:0;
+pointer-events:none;
+opacity:.07;
+font-size:35px;
+line-height:1.2;
+white-space:pre-wrap;
+}
+
+/* sections */
+section{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:50px 20px;
+text-align:center;
+position:relative;
+z-index:1;
+}
+
+/* cards */
+.card{
+background:rgba(255,255,255,.15);
+padding:35px;
+border-radius:25px;
+max-width:650px;
+margin:20px;
+animation:fade 1.5s;
+word-wrap:break-word;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(30px);}
+to{opacity:1;}
+}
+
+h1{font-family:Pacifico;}
+
+button{
+padding:15px 30px;
+border:none;
+border-radius:15px;
+font-size:18px;
+margin:10px;
+cursor:pointer;
+}
+
+#yes{background:white;color:#821515;}
+#no{background:#eee;}
+
+/* hearts */
+.heart{
+position:absolute;
+animation:float 8s linear infinite;
+z-index:0;
+}
+
+@keyframes float{
+from{transform:translateY(110vh);}
+to{transform:translateY(-20vh);}
+}
+
+/* gallery in 4 rows */
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+gap:20px;
+max-width:800px;
+justify-items:center;
+}
+
+.gallery img{
+width:100%;
+height:auto;
+border-radius:25px;
+border:4px solid pink;
+transform:rotate(calc(var(--r)*1deg));
+}
+
+/* sparkles */
+.sparkle{
+position:absolute;
+animation:spark 2s forwards;
+}
+
+@keyframes spark{
+from{opacity:1;}
+to{opacity:0;transform:translateY(-40px);}
+}
+</style>
+</head>
+
+<body>
+
+<div id="start">
+<h1>Tap to Begin 💗</h1>
+<button onclick="start()">Start</button>
+</div>
+
+<div class="bgtext" id="bg"></div>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<section>
+<h1>Mohammed Akeil Hussain 💕</h1>
+<p>(aka Kilo Bytes… my pumpkin 🥰)</p>
+</section>
+
+<section>
+<div class="gallery">
+<img src="pic1.jpeg" style="--r:-8">
+<img src="pic2.jpeg" style="--r:6">
+<img src="pic3.jpeg" style="--r:-4">
+<img src="pic4.jpeg" style="--r:5">
+<img src="pic5.jpeg" style="--r:-7">
+<img src="pic6.jpeg" style="--r:3">
+<img src="pic7.jpeg" style="--r:-5">
+<img src="pic8.jpeg" style="--r:7">
+<img src="pic9.jpeg" style="--r:-2">
+</div>
+</section>
+
+<section>
+<div class="card">I’ve been thinking lately… a little about you.</div>
+<div class="card">Since September 11, 2023 — my world changed.</div>
+<div class="card">You’re my safe place, my best friend, my favourite person.</div>
+</section>
+
+<section>
+<div class="card">
+
+I just want u to know tht I love u to bits n every single day I find myself thinking about u n smiling for no reason at all. U make my heart feel so full n I cant imagine my life wthout u. I love the way u make me laugh n the way u care for me in ways no one else ever has. I love how u listen to me n how you understand me even when I dont say much. I love the way u look at me n tht look makes me feel so safe n so special. I love the little things u do n even the big things tht show me tht u love me. I feel so grateful tht I have someone as amazing as u in my life. I love the way we can talk for hours n never run out of things to say. I love how comfortable I feel wth u n how being wth u makes everything better. I love tht u accept me for who I am n tht u make me want to be the best version of myself. I love the way you support me n the way you make me feel tht I can do anything. I love the way u hold my hand n tht feeling of being wth u makes my heart skip a beat. I love tht I can share my dreams n my fears wth u n tht u are always there to cheer me on. I love the way u make ordinary moments feel magical n I love tht I get to love u n be loved by u. I love tht every day I spend wth u is a day I will never forget. I love tht I get to call u mine n tht u call me yours. I love the way u make my soul feel alive n the way my heart feels lighter when u are around. I love tht u make me feel beautiful n special in ways no one else ever could. I love tht no matter what happens I know I can count on u. I love the way we dream together n tht we plan for a future tht is ours. I love tht every moment wth u is a memory I will cherish forever. I love tht I get to grow n learn wth u. I love tht u are my best friend n my love all in one. I love tht my heart belongs to u n tht u belong to me. I love u more than words can ever explain n I promise to always love u n care for u n support u. I love u to bits n I always will. I love u more than yesterday n less than tomorrow n I love the way u make me feel n the way u make my heart beat faster. I love tht my soul recognizes u n my heart longs for u. I love tht every day wth u is a blessing n I love tht I cant wait for our future n adventures together. I love tht I get to hold u n laugh wth u n cry wth u n just be wth u. I love tht my heart is yours n yours is mine n I love tht we share dreams n moments tht no one else understands. I love tht I love u endlessly n forever.  
+
+<br><br>
+Forever n always 💗
+
+</div>
+</section>
+
+<section>
+<h1>WILL YOU SAY YES????</h1>
+<button id="yes">YES 💗</button>
+<button id="no">NO 😭</button>
+<div id="reply"></div>
+</section>
+
+<script>
+
+// start music + start hearts
+function start(){
+document.getElementById("music").play();
+document.getElementById("start").style.display="none";
+}
+
+// background love text
+let txt="";
+for(let i=0;i<600;i++) txt+="i love u ";
+document.getElementById("bg").innerText=txt;
+
+// floating hearts ALL THE TIME
+setInterval(()=>{
+let h=document.createElement("div");
+h.className="heart";
+h.innerHTML="💗";
+h.style.left=Math.random()*100+"vw";
+h.style.fontSize=Math.random()*20+15+"px";
+document.body.appendChild(h);
+setTimeout(()=>h.remove(),8000);
+},200);
+
+// YES
+document.getElementById("yes").onclick=()=>{
+document.getElementById("reply").innerHTML="YAYYYY 🥰💗";
+window.open("https://wa.me/278875223?text=Yes%20I%20will%20be%20your%20Valentine%20Mashal%20💗");
+for(let i=0;i<30;i++){
+let s=document.createElement("div");
+s.className="sparkle";
+s.innerHTML="✨";
+s.style.left=Math.random()*100+"vw";
+s.style.top=Math.random()*100+"vh";
+document.body.appendChild(s);
+setTimeout(()=>s.remove(),2000);
+}
+};
+
+// NO
+document.getElementById("no").onclick=()=>{
+alert("ARE YOU SURE? 😭");
+};
+
+</script>
+
+</body>
+</html>
